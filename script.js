@@ -41,7 +41,7 @@ class Workout{
 class Running extends Workout{
 
     type = 'running';
-    constructor(coords,duration,distance,cadence){
+    constructor(coords,distance,duration,cadence){
         super(coords,distance,duration);
         this.cadence = cadence;
         this.calcPace();
